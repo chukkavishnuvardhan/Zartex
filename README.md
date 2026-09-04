@@ -22,7 +22,7 @@ authorities and citizens.
 ## Technology Stack
 
 - Frontend: React
-- Backend: Node.js
+- Backend: TypeScript
 - AI/ML
 - Database
 - Mappls
