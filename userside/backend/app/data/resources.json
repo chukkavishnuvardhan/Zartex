@@ -1,0 +1,49 @@
+{
+  "resources": [
+    {
+      "id": 1,
+      "name": "Government Relief Camp",
+      "type": "SHELTER",
+      "latitude": 17.4500,
+      "longitude": 78.3800,
+      "capacity": 200,
+      "status": "AVAILABLE"
+    },
+    {
+      "id": 2,
+      "name": "District Emergency Hospital",
+      "type": "HOSPITAL",
+      "latitude": 17.4200,
+      "longitude": 78.4100,
+      "capacity": 150,
+      "status": "AVAILABLE"
+    },
+    {
+      "id": 3,
+      "name": "Community Food Distribution Center",
+      "type": "FOOD_CENTER",
+      "latitude": 17.4350,
+      "longitude": 78.3950,
+      "capacity": 500,
+      "status": "AVAILABLE"
+    },
+    {
+      "id": 4,
+      "name": "Emergency Water Distribution Point",
+      "type": "WATER_CENTER",
+      "latitude": 17.4400,
+      "longitude": 78.4000,
+      "capacity": 300,
+      "status": "AVAILABLE"
+    },
+    {
+      "id": 5,
+      "name": "Local Police Emergency Station",
+      "type": "POLICE_STATION",
+      "latitude": 17.4300,
+      "longitude": 78.3900,
+      "capacity": 50,
+      "status": "AVAILABLE"
+    }
+  ]
+}

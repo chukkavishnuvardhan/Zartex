@@ -1,0 +1,43 @@
+{
+  "guidelines": {
+    "Flood": [
+      "Move to higher ground immediately if water levels are rising.",
+      "Do not walk or drive through moving flood water.",
+      "Turn off electricity if it is safe to do so.",
+      "Keep emergency supplies and important documents ready.",
+      "Follow evacuation instructions from local authorities."
+    ],
+
+    "Fire": [
+      "Leave the building immediately using the nearest safe exit.",
+      "Do not use elevators during a fire.",
+      "Stay low if there is smoke.",
+      "Call emergency services from a safe location.",
+      "Do not re-enter the building until authorities declare it safe."
+    ],
+
+    "Earthquake": [
+      "Drop to the ground, take cover, and hold on.",
+      "Stay away from windows and heavy objects.",
+      "Do not use elevators.",
+      "After shaking stops, move carefully to an open area.",
+      "Expect possible aftershocks."
+    ],
+
+    "Cyclone": [
+      "Stay indoors and away from windows.",
+      "Keep emergency food, water, and medical supplies ready.",
+      "Follow official weather warnings.",
+      "Avoid travelling unless necessary.",
+      "Move to an official shelter if instructed."
+    ],
+
+    "Landslide": [
+      "Move away from slopes and unstable areas immediately.",
+      "Listen for unusual sounds such as cracking trees or moving rocks.",
+      "Avoid river valleys during heavy rainfall.",
+      "Follow evacuation instructions.",
+      "Do not return to affected areas until declared safe."
+    ]
+  }
+}

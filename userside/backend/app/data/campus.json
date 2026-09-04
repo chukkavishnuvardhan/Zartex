@@ -1,0 +1,194 @@
+{
+  "campus_name": "ResQTwin Smart Campus",
+
+  "buildings": [
+    {
+      "id": "B1",
+      "name": "Block A",
+      "x": 150,
+      "y": 120,
+      "population": 180,
+      "elevation": 8
+    },
+    {
+      "id": "B2",
+      "name": "Block B",
+      "x": 450,
+      "y": 120,
+      "population": 220,
+      "elevation": 5
+    },
+    {
+      "id": "B3",
+      "name": "Block C",
+      "x": 150,
+      "y": 350,
+      "population": 140,
+      "elevation": 3
+    },
+    {
+      "id": "B4",
+      "name": "Block D",
+      "x": 450,
+      "y": 350,
+      "population": 200,
+      "elevation": 6
+    }
+  ],
+
+  "roads": [
+  {
+    "id": "R1",
+    "from": "B1",
+    "to": "B2",
+    "distance": 300,
+    "elevation": 7
+  },
+  {
+    "id": "R2",
+    "from": "B1",
+    "to": "B3",
+    "distance": 230,
+    "elevation": 6
+  },
+  {
+    "id": "R3",
+    "from": "B2",
+    "to": "B4",
+    "distance": 230,
+    "elevation": 4
+  },
+  {
+    "id": "R4",
+    "from": "B3",
+    "to": "B4",
+    "distance": 300,
+    "elevation": 3
+  },
+  {
+    "id": "R5",
+    "from": "B2",
+    "to": "B3",
+    "distance": 380,
+    "elevation": 5
+  },
+  {
+    "id": "R6",
+    "from": "B1",
+    "to": "E1",
+    "distance": 170,
+    "elevation": 8
+  },
+  {
+    "id": "R7",
+    "from": "B2",
+    "to": "E1",
+    "distance": 180,
+    "elevation": 7
+  },
+  {
+    "id": "R8",
+    "from": "B2",
+    "to": "E2",
+    "distance": 220,
+    "elevation": 6
+  },
+  {
+    "id": "R9",
+    "from": "B4",
+    "to": "E2",
+    "distance": 210,
+    "elevation": 5
+  },
+  {
+    "id": "R10",
+    "from": "B3",
+    "to": "E3",
+    "distance": 190,
+    "elevation": 5
+  },
+  {
+    "id": "R11",
+    "from": "B4",
+    "to": "E3",
+    "distance": 180,
+    "elevation": 5
+  }
+],
+
+  "exits": [
+    {
+      "id": "E1",
+      "name": "North Exit",
+      "x": 300,
+      "y": 40,
+      "capacity": 300,
+      "elevation": 9
+    },
+    {
+      "id": "E2",
+      "name": "East Exit",
+      "x": 650,
+      "y": 250,
+      "capacity": 400,
+      "elevation": 7
+    },
+    {
+      "id": "E3",
+      "name": "South Exit",
+      "x": 300,
+      "y": 500,
+      "capacity": 250,
+      "elevation": 6
+    }
+  ],
+
+  "shelters": [
+    {
+      "id": "S1",
+      "name": "Central Shelter",
+      "x": 700,
+      "y": 120,
+      "capacity": 300,
+      "occupied": 80,
+      "elevation": 10
+    },
+    {
+      "id": "S2",
+      "name": "Community Shelter",
+      "x": 700,
+      "y": 400,
+      "capacity": 500,
+      "occupied": 120,
+      "elevation": 8
+    }
+  ],
+
+  "hospital": {
+    "id": "H1",
+    "name": "Campus Hospital",
+    "x": 80,
+    "y": 500,
+    "capacity": 150,
+    "elevation": 9
+  },
+
+  "rescue_teams": [
+    {
+      "id": "RT1",
+      "name": "Rescue Team Alpha",
+      "x": 100,
+      "y": 250,
+      "available": true,
+      "capacity": 50
+    },
+    {
+      "id": "RT2",
+      "name": "Rescue Team Bravo",
+      "x": 600,
+      "y": 250,
+      "available": true,
+      "capacity": 40
+    }
+  ]
+}

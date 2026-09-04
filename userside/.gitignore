@@ -1,0 +1,33 @@
+# Python virtual environments
+# Android / Android Studio
+.gradle/
+.idea/
+.kotlin/
+local.properties
+app/build/
+*.apk
+.venv/
+venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+*.env
+
+# Node modules
+node_modules/
+
+# Build files
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
