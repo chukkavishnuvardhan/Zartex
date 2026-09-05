@@ -30,6 +30,13 @@ authorities and citizens.
 
 ## Project Architecture
 
+
+
+
+
+
+
+
                          ┌───────────────────────┐
                          │      DISASTER         │
                          │  Fire / Flood / EQ    │
@@ -49,14 +56,14 @@ authorities and citizens.
    │      RESQTWIN          │              │    DISASTERCONNECT     │
    ├────────────────────────┤              ├────────────────────────┤
    │ Command Dashboard      │              │ Android Application    │
-   │ Digital Twin           │              │ AI Assistant            │
-   │ Disaster Simulation    │              │ Emergency SOS           │
-   │ Risk Assessment        │              │ Help Requests            │
-   │ Crowd Simulation       │              │ Location Sharing        │
-   │ Route Optimization     │              │ Flood Risk              │
-   │ Bottleneck Detection   │              │ Resources               │
-   │ Dynamic Rerouting      │              │ Safety Guidelines       │
-   │ Rescue Allocation      │              │ Offline Communication   │
+   │ Digital Twin           │              │ AI Assistant           │
+   │ Disaster Simulation    │              │ Emergency SOS          │
+   │ Risk Assessment        │              │ Help Requests          │
+   │ Crowd Simulation       │              │ Location Sharing       │
+   │ Route Optimization     │              │ Flood Risk             │
+   │ Bottleneck Detection   │              │ Resources              │
+   │ Dynamic Rerouting      │              │ Safety Guidelines      │
+   │ Rescue Allocation      │              │ Offline Communication  │
    └────────────┬───────────┘              └────────────┬───────────┘
                 │                                       │
                 └──────────────────┬────────────────────┘
@@ -72,7 +79,7 @@ authorities and citizens.
                     │ Shelter Engine               │
                     │ Rescue Engine                │
                     │ What-If Engine               │
-                    │ Bottleneck Detection          │
+                    │ Bottleneck Detection         │
                     └──────────────┬───────────────┘
                                    │
                     ┌──────────────┼──────────────┐
@@ -82,10 +89,10 @@ authorities and citizens.
              │   TWIN    │  │  SERVICES  │  │   SERVICES  │
              ├───────────┤  ├────────────┤  ├─────────────┤
              │ Buildings │  │ Featherless│  │   Mappls    │
-             │ Roads     │  │ Qwen 2.5  │  │ 2D / 3D     │
-             │ Zones     │  │ AI Guide   │  │ Directions   │
+             │ Roads     │  │ Qwen 2.5  │  │ 2D / 3D      │
+             │ Zones     │  │ AI Guide   │  │ Directions  │
              │ People    │  │            │  │ Geographic  │
-             │ Exits     │  │            │  │ visualization│
+             │ Exits     │  │            │  │visualization│
              └─────┬─────┘  └─────┬──────┘  └──────┬──────┘
                    │               │                │
                    └───────────────┼────────────────┘
@@ -93,35 +100,40 @@ authorities and citizens.
                     ┌──────────────────────────────┐
                     │     COMMUNICATION LAYER      │
                     ├──────────────────────────────┤
-                    │ REST APIs                     │
+                    │ REST APIs                    │
                     │ FastAPI                      │
-                    │ Internet                      │
-                    │ Bluetooth / BLE               │
-                    │ Wi-Fi Direct                  │
-                    │ Nearby Device Communication   │
+                    │ Internet                     │
+                    │ Bluetooth / BLE              │
+                    │ Wi-Fi Direct                 │
+                    │ Nearby Device Communication  │
                     └──────────────┬───────────────┘
                                    ▼
                     ┌──────────────────────────────┐
-                    │         DATA LAYER            │
+                    │         DATA LAYER           │
                     ├──────────────────────────────┤
-                    │ Disaster Data                 │
-                    │ Campus Data                   │
-                    │ Emergency Requests            │
-                    │ Resources                     │
-                    │ Safety Guidelines             │
-                    │ Risk / Route Data             │
+                    │ Disaster Data                │
+                    │ Campus Data                  │
+                    │ Emergency Requests           │
+                    │ Resources                    │
+                    │ Safety Guidelines            │
+                    │ Risk / Route Data            │
                     └──────────────┬───────────────┘
                                    ▼
                     ┌──────────────────────────────┐
-                    │      RESPONSE & ACTION        │
+                    │      RESPONSE & ACTION       │
                     ├──────────────────────────────┤
-                    │ Safe Evacuation               │
-                    │ Rescue Prioritization         │
-                    │ Emergency Assistance          │
-                    │ Resource Allocation            │
-                    │ Citizen Guidance              │
-                    │ Dynamic Decision Support      │
+                    │ Safe Evacuation              │
+                    │ Rescue Prioritization        │
+                    │ Emergency Assistance         │
+                    │ Resource Allocation          │
+                    │ Citizen Guidance             │
+                    │ Dynamic Decision Support     │
                     └──────────────────────────────┘
+
+
+
+
+
 
 ## Team
 
